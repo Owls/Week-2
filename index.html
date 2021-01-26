@@ -3,19 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <title>The Nonsense Zone</title>
+    <style>
+        /* Centers Paragraphs */
+        p {text-align: center;}
+    
+    body, html 
+/* Hero Image Adds a Banner to the top of the Page */
+{
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This Uses the "Linear-Gradient to Darken the Image. This allows clarity for Text */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./bannertest.png");
+  /* Controls Height */
+  height: 50%;
+  /* Posistions and Scales the Image for All Screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Centers the Text*/
+.hero-text 
+{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+ 
+.hero-text button 
+{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover 
+{
+  background-color: #555;
+  color: white;
+}
+        </style>
 </head>
-<body>
+
+<body style="background-color: #FF5733;">
+
+    <!-- Hero Image Here -->
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Welcome to the Sublime...</h1>
+            <!-- Adds a Button, and other stuff -->
+            <!-- Links User to About Page -->
+        <a href="./about.html"><button>Drink Me!</button></a>
+        </div>
+    </div>
+
     <hr>
-    <p id="test1"><strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. Suscipit officiis quae velit laboriosam incidunt <em>consequuntur</em> quas voluptates ullam ipsa ab autem molestiae <strike>nihil</strike> dolorem cum, molestias sequi reprehenderit atque odit?</p>
+    <marquee behavior="scroll" direction="right"><strong>Look at this beautiful text</strong> scrolling <em>gracefully</em> across the <strike>screen</strike>, I mean, horizontal rule.
+    </marquee>
     <hr>
 
     <br>
 
-    <p id="test2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, deserunt vero ut doloremque rerum eaque architecto laudantium ipsa minima aliquam unde temporibus porro et atque ab eos earum. Expedita, magnam.</p>
+    <p id="test1">My Grandfather always used to say, back in his boyhood in the 1500s: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, deserunt vero ut doloremque rerum eaque architecto laudantium ipsa minima aliquam unde temporibus porro et atque ab eos earum. Expedita, magnam."</p>
+
+    <p id="test2">Honestly, the beauty of this statement is lost on me, because those words are mostly made up. Anyway, keep scrolling for neat stuff.</p>
+
+    <br>
 
     <!--- Links User to a Website of my choice -->
-    <a href="https://teenage.engineering" target="_blank"><button>Drink Me!</button></a>
+    <div class="center">
+    <a href="https://teenage.engineering" target="_blank">Looking for more information? Click here!</a>
+    </div>
 
     <br>
 
@@ -24,31 +97,36 @@
 
     <br>
 
+
     <!-- Unordered List -->
+    <p>Well, here's a few things to consider:</p>
     <ul>
-        <li>Placeholder</li>
-        <li>Placeholder</li>
-        <li>Placeholder</li>
+        <li>Bouncy Castles</li>
+        <li>Dogs</li>
+        <li>Pizza</li>
             <!--Nested Unordered List -->
             <ul>
-                <li>Placeholder</li>
-                <li>Placeholder</li>
+                <li>Pepperoni</li>
+                <li>Pepperoni and Mushrooms</li>
             </ul>
     </ul>
 
     <br>
 
+    <p>I sure do appreciate your consideration! As a reward, let me list my 3 favorite readers:</p>
     <!-- Ordered List -->
-    <li>Placeholder</li>
-    <li>Placeholder</li>
-    <li>Placeholder</li>
+    <li>You</li>
+    <li>You</li>
+    <li>You</li>
 
     <br>
 
+    <p>Well, now's the time to celebrate! Here's some nice stuff for you~</p>
+
     <!-- Embedded Video -->
     <iframe 
-    width="1263"
-			height="712"
+    width="848"
+			height="480"
 			src="https://www.youtube.com/embed/5rAOFqF8L30"
 			frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
