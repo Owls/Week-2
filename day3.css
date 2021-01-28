@@ -1,0 +1,67 @@
+
+/* Changes Text Color with all Designated IDs */ 
+#red
+{
+    color: #FF5733;
+}
+
+/* Changes Font for this ID - Uses Google Fonts */ 
+#cool-font
+{
+    font-family: 'Playfair Display', serif;
+}
+
+/* Changes Text Color with all Designated Classes */ 
+.green
+{
+    color: #33FFBD; 
+}
+
+/* Changes Font Size with all Designated Classes */ 
+.big
+{
+  font-size: 25px;  
+}
+
+/* Bolds Text with all Designated Classes */
+.bold
+{   
+    font-weight: bold;
+}
+
+/* Applies Color to all Designated Classes */
+.box-1
+{
+    background-color: #C70039;
+}
+
+/* Applies Color to all Designated Classes */
+.box-2
+{
+    background-color: #33A7FF;
+}
+
+/* Applies Attributes to Designated Class */ 
+.border
+{
+    border-radius: 25px;
+    border: 3px solid #33A7FF;
+    background: white url("https://media.tenor.com/images/006576545ed65ca88149bb66aa79ab90/tenor.gif");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* Changes Background and Font Color for Body */ 
+body
+{
+    background-color: #A1AAB2;
+    color: #E9EDEF; 
+}
+
+/* Applies Height and Width to Divs */
+div
+{
+    height: 100px;
+    width: 100px;
+}
