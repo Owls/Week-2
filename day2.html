@@ -7,10 +7,8 @@
     <title>Table Flipping/title>
 </head>
 
-
 <body>
-    
-<!-- Creates a Table -->
+    <!-- Creates a Table -->
 <table style="width:20%">
     <thead>
         <tr>
@@ -22,21 +20,111 @@
 
     <tbody>
         <tr>
-            <th>1</th>
-            <td>Test</td>
+            <td>Hunter</td>
+            <td>Covington</td>
+            <td>27</td>
         </tr>
 
-        <tr>
-            <th>2</th>
-            <td>Test</td>
-        </tr>
-
-        <tr>
-            <th>3</th>
-            <td>Test</td>
-        </tr>
     </tbody>
 </table>
+
+<br>
+
+<!-- Creates a Form -->
+<form action="" method="">
+    <!-- Label is able to Send Data to Server -->
+    <label for="text">Username</label>
+    <!-- Input determines what is shown on screen and how to interact with it -->
+    <input id="text" type="text" />
+    <br />
+    <!-- Has a Sliding Ranger Finder -->
+    <label for="range">Range</label>
+    <input id="range" type="range" />
+    <br />
+    <!-- Allows you to Imput Date -->
+    <label for="date">Date</label>
+    <input id="date" type="date" />
+    <br />
+    <!-- Allows you to Select Number -->
+    <label for="num">Number</label>
+    <input type="number" id="num" />
+</form>
+
+    <br> 
+    <br>
+
+
+    <h1>What is your Favorite Color?</h1>
+    <form action="">
+        <!-- Creates a Radio Button - Only One Option may be Selected at a Time -->
+        <label for="purple">Blue?</label>
+        <input type="radio" name="favcolor" id="blue value="blue">
+        <br>
+        <label for="green">Yellow?</label>
+        <input type="radio" name="favcolor" id="yellow" value="yellow">
+    </form>
+
+    <br>
+
+    <h1>What is your Favorite Food?</h1>
+    <form action="">
+        <!-- For Pizza -->
+        <label for="pizza">Pizza?</label>
+        <input type="radio" name="favfood" id="pizza" value="pizza">
+        <br>
+        <!-- For Burgers -->
+        <label for="burgers">Burgers?</label>
+        <input type="radio" name="favfood" id="burgers" value="burgers">
+    </form>
+    <br>
+
+    <h1>Which Describes You?</h1>
+    <form action="">
+
+        <!-- Creates a Checkbox -->
+        <label for="smort">Smart</label>
+        <input type="checkbox" id="smort" name="desc" value="Smart">
+        <br>
+        <label for="swole">Muscular</label>
+        <input type="checkbox" id="swole" name="desc" value="Muscular">
+        <br>
+    </form>
+
+    <br>
+    <!-- Creates an Adjustable Box for Inputting Text -->
+    <textarea name="test" id="textArea" cols="30" rows="1-"></textarea>
+
+    <!-- Creates a Dropdown Box with Selectable Options -->
+    <form action="">
+        <label for="bands">Choose your Favor Band: </label>
+        <select name="bands" id="bands">
+            <option value="choose">Please select...</option>
+            <option value="rush">Rush</option>
+            <option value="vulf">Vulf</option>
+            <option value="scarp">Scary Pockets</option>
+        </select>
+    </form>
+
+    <!-- Creates a Submit Button-->
+    <button type="submit">Submit</button>
+
+    <div>
+        <p>Lorem ipsum dolor, sit amet consectetur <span>adipisicing</span> elit. Obcaecati ullam perspiciatis laboriosam quisquam dolorum. Nemo dolores aperiam dignissimos nulla minus saepe at magni eveniet modi adipisci, officia vitae tempore consequuntur!</p>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <h1>Inline Elements</h1>
+    <a href="https://www.google.com">Have a Question? Feel free to Google it yourself.</a>
+    <strong>Strong is a good example of an Inline Element.</strong>
+    <em>I can't really emphasize this enough.</em>
+
+    <h1>Block Elements</h1>
+    <h4>Incase you didn't know, a header is a Block Element</h4>
+    <p>This Block Element is brought to you by the letter P, for paragraph.</p>
+    <li>I can list the amount of Block Elements in this list. With... a list. Oh geez.</li>
 
 </body>
 </html>
