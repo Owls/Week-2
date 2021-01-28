@@ -1,5 +1,10 @@
 #centered {text-align: center;}
 
+table, th, td 
+{
+    border: 1px solid black;
+}
+
     body, html 
 /* Hero Image Adds a Banner to the top of the Page */
 {
